@@ -1,0 +1,14 @@
+packages
+.vs
+bin
+obj
+*.mdf
+*.ldf
+/src/ModernStore.Domain/bin
+/src/ModernStore.Domain/obj
+/src/ModernStore.Domain.Tests/obj
+/src/ModernStore.Domain.Tests/bin
+/src/ModernStore.Infra/obj
+/src/ModernStore.Infra/bin
+/src/ModernStore.Shared/obj
+/src/ModernStore.Shared/bin
