@@ -1,5 +1,4 @@
-﻿using FluentValidator;
-using ModernStore.Domain.Commands.Inputs;
+﻿using ModernStore.Domain.Commands.Inputs;
 using ModernStore.Domain.Commands.Results;
 using ModernStore.Domain.Entities;
 using ModernStore.Domain.Repositories;
@@ -7,6 +6,7 @@ using ModernStore.Domain.Resources;
 using ModernStore.Domain.Services;
 using ModernStore.Domain.ValueObjects;
 using ModernStore.Shared.Commands;
+using ModernStore.Shared.FluentValidator;
 
 namespace ModernStore.Domain.Commands.Handlers
 {

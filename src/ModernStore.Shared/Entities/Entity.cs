@@ -1,5 +1,5 @@
 ﻿using System;
-using FluentValidator;
+using ModernStore.Shared.FluentValidator;
 
 namespace ModernStore.Shared.Entities
 {

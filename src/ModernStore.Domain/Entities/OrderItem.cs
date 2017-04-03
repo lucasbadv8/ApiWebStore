@@ -1,6 +1,6 @@
 ﻿using System;
-using FluentValidator;
 using ModernStore.Shared.Entities;
+using ModernStore.Shared.FluentValidator;
 
 namespace ModernStore.Domain.Entities
 {

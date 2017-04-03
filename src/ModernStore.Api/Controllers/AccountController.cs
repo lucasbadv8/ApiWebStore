@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
-using FluentValidator;
+using ModernStore.Shared.FluentValidator;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -88,6 +88,11 @@ namespace ModernStore.Api.Controllers
 
             var json = JsonConvert.SerializeObject(response, _serializerSettings);
             return new OkObjectResult(json);
+        }
+
+        private Task<IActionResult> Response(object p, List<Notification> list)
+        {
+            throw new NotImplementedException();
         }
 
         private static void ThrowIfInvalidOptions(TokenOptions options)

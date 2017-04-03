@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FluentValidator;
+using ModernStore.Shared.FluentValidator;
 using Microsoft.AspNetCore.Mvc;
 using ModernStore.Infra.Transactions;
 

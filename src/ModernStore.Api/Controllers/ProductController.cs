@@ -1,7 +1,5 @@
-﻿using System;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ModernStore.Domain.Commands.Inputs;
 using ModernStore.Domain.Entities;
 using ModernStore.Domain.Repositories;
 
